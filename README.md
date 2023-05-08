@@ -1,2 +1,6 @@
-# lmh-wp-child-theme
-WordPress child themes and plugins examples
+#WordPress Code Examples
+
+Currently includes:
+
+- Twenty Twenty-One child theme
+- Custom post types
