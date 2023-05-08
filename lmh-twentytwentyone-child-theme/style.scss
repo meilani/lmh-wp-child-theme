@@ -1,0 +1,33 @@
+/** 
+*   Theme Name:  LMH Twenty Twenty-One Child
+    Theme URI:   https://github.com/meilani/lmh-wp-child-theme 
+    Description: A child theme example for twentytwentyone
+    Author:      Laura Ho 
+    Template:    twentytwentyone
+    Version:     1.0.0
+*/
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: var(--responsive--alignwide-width);
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: 1201px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 651px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.speaker-entry,
+.event-entry {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+}
